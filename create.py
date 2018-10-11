@@ -9,7 +9,7 @@ import os
 import random
 from robot import Robot
 import utils
-
+import sys
 
 # User options (change me)
 # --------------- Setup options ---------------
@@ -26,9 +26,11 @@ np.random.seed(random_seed)
 robot = Robot(True, obj_mesh_dir, num_obj, workspace_limits,
               None, None, None, None,
               True, False, None)
-
-test_case_file_name = raw_input("Enter the name of the file: ") # test-10-obj-00.txt
-
+test_case_file_name = ""
+if sys.version_info[0] < 3:
+    test_case_file_name = raw_input("Enter the name of the file: ") # test-10-obj-00.txt
+else:
+    test_case_file_name = input("Enter the name of the file: ") # test-10-obj-00.txt
 # Fetch object poses
 obj_positions, obj_orientations = robot.get_obj_positions_and_orientations()
 
