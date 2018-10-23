@@ -421,8 +421,8 @@ if __name__ == '__main__':
     # -------------- Testing options --------------
     parser.add_argument('--is_testing', dest='is_testing', action='store_true', default=False)
     parser.add_argument('--max_test_trials', dest='max_test_trials', type=int, action='store', default=30,                help='maximum number of test runs per case/scenario')
-    parser.add_argument('--test_preset_cases', dest='test_preset_cases', action='store_true', default=False)
-    parser.add_argument('--test_preset_file', dest='test_preset_file', action='store', default='test-10-obj-01.txt')
+    parser.add_argument('--test_preset_cases', dest='test_preset_cases', action='store_true', default=False,              help='use pre-setup test environment option')
+    parser.add_argument('--test_preset_file', dest='test_preset_file', action='store', default='test-10-obj-01.txt',      help='pre-setup test environment file')
     
     # ------ Pre-loading and logging options ------
     parser.add_argument('--load_snapshot', dest='load_snapshot', action='store_true', default=False,                      help='load pre-trained snapshot of model?')
