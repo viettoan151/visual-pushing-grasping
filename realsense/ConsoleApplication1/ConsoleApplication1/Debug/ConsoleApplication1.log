@@ -1,0 +1,7 @@
+﻿  ConsoleApplication1.cpp
+d:\master\github\visual-pushing-grasping\realsense\consoleapplication1\consoleapplication1\example.hpp(133): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\master\github\visual-pushing-grasping\realsense\consoleapplication1\consoleapplication1\example.hpp(180): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': cannot convert argument 3 from 'const char *' to 'LPCWSTR'
+  d:\master\github\visual-pushing-grasping\realsense\consoleapplication1\consoleapplication1\example.hpp(180): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+d:\master\github\visual-pushing-grasping\realsense\consoleapplication1\consoleapplication1\example.hpp(326): warning C4018: '<': signed/unsigned mismatch
+d:\master\github\visual-pushing-grasping\realsense\consoleapplication1\consoleapplication1\consoleapplication1.cpp(118): error C3867: 'Server::listener_thread': non-standard syntax; use '&' to create a pointer to member
+d:\master\github\visual-pushing-grasping\realsense\consoleapplication1\consoleapplication1\consoleapplication1.cpp(162): warning C4018: '>': signed/unsigned mismatch

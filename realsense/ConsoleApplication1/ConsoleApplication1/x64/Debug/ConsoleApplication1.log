@@ -1,0 +1,7 @@
+﻿  ConsoleApplication1.cpp
+d:\master\github\visual-pushing-grasping\realsense\consoleapplication1\consoleapplication1\example.hpp(133): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\master\github\visual-pushing-grasping\realsense\consoleapplication1\consoleapplication1\consoleapplication1.cpp(168): warning C4018: '>': signed/unsigned mismatch
+  ConsoleApplication1.vcxproj -> D:\Master\GitHub\visual-pushing-grasping\realsense\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
+  Copy Intel RealSense SDK 2.0 shared module next to the application
+  C:\Program Files (x86)\Intel RealSense SDK 2.0\bin\x64\realsense2.dll
+  1 File(s) copied
